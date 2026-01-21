@@ -39,7 +39,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::300563897675:role/github-actions-react-s3-deploy
+          role-to-assume: arn:aws:iam::300563897675:role/obra-react-s3-deploy
           aws-region: eu-central-1
 
       - name: Deploy to S3
